@@ -1,0 +1,143 @@
+
+body {
+  background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/28/4a/4d/caption.jpg?w=1100&h=-1&s=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Rest of your CSS... */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebar ul li:hover {
+  background-color: #444;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: black; /* Ändert die Textfarbe im Eingabefeld in Schwarz */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.deleteButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.editButton {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.container ul#daysList li {
+  background-color: transparent;
+  color: black;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.deleteButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: #f44336;
+}
+
+.editButton {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.editButton:hover {
+  background-color: #45a049;
+}
+
